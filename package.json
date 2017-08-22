@@ -1,0 +1,24 @@
+{
+	"scripts": {
+		"prod": "gulp --production",
+		"dev": "gulp watch"
+	},
+	"devDependencies": {},
+	"name": "echatbot",
+	"version": "1.0.0",
+	"description": "Framework chatbot for IBM Watson",
+	"main": "index.js",
+	"author": "Geidson Benício Coelho de Souza",
+	"license": "MIT",
+	"dependencies": {
+		"autoprefixer": "^7.1.2",
+		"css-mqpacker": "^6.0.1",
+		"gulp": "^3.9.1",
+		"gulp-cssnano": "^2.1.2",
+		"jquery": "^3.2.1",
+		"laravel-elixir": "^6.0.0-15",
+		"laravel-elixir-stylus": "^2.0.3",
+		"postcss-flexibility": "^2.0.0",
+		"poststylus": "^0.2.3"
+	}
+}

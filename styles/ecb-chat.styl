@@ -1,0 +1,56 @@
+.ecb-chat
+	background-color: $color-white
+	width: 350px
+	position: fixed
+	bottom: 32px
+	right: 32px
+	transition: all
+	z-index: 100
+	overflow: hidden
+	transform: scale(0)
+	transform-origin: bottom right
+	transition: transform .3s ease
+	border-radius: 5px
+
+	.ecb-chat-header
+		background-color: $color-white
+		border-bottom: 2px solid $color-light
+		display: flex
+		justify-content: space-between
+		align-items: center
+		padding: 15px
+		color: $color-dark
+		fill: $color-dark
+
+		.ecb-chat-header-title
+			font-weight: bold
+			font-size: 12pt
+
+		.ecb-chat-header-close
+			cursor: pointer
+
+
+	.ecb-chat-body
+		padding: 15px
+		color: $color-text
+		height: 400px
+		overflow-y: auto
+		background-color: #ebf0f1
+
+	.ecb-chat-footer
+		background-color: $color-white
+		border-top: 2px solid $color-light
+		display: block
+
+		input
+			width: 100%
+			border: none
+			padding: 15px
+			font-size: 10pt
+			box-sizing: border-box
+			font-family: $font-default
+
+			&:hover, &:active, &:focus
+				box-shadow: none
+				outline: none
+				border: none
